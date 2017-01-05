@@ -12,6 +12,9 @@ libraryDependencies ++= Seq(
   // fake data generator
   "com.github.azakordonets" % "fabricator_2.11" % "2.1.3",
 
+  // csv read-write utility
+  "com.github.tototoshi" %% "scala-csv" % "1.3.4",
+
   // testing
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
